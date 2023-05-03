@@ -151,19 +151,38 @@ button {
     height: 100%;
     flex-wrap: wrap;
   }
+
   .article__iguana {
     flex-wrap: wrap;
   }
+
   .caracteristicas__container {
     margin-top: 20rem;
   }
+
   .caracteristicas__card {
     flex-wrap: wrap;
   }
+
   .footer {
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
+
   .footer__parrafo {
     font-size: 16px;
+  }
+
+  .article__parrafo,
+  .article__img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .caracteristicas__card {
+    gap: 1rem;
+  }
+
+  .img__card {
+    max-width: 100%;
   }
 }
