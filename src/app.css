@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -12,7 +13,6 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-
 h1,
 h2,
 h3,
@@ -21,19 +21,23 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 ul {
   padding-left: 0;
   list-style: none;
 }
+
 img {
   width: 100%;
   display: block;
 }
+
 input {
   outline: none;
   font-size: inherit;
   font-family: inherit;
 }
+
 button {
   font-family: inherit;
   border: none;
@@ -43,15 +47,17 @@ button {
   text-align: center;
   font-size: 35px;
 }
+
 .figure__img {
   margin: auto;
   width: 100%;
 }
+
 .header__img {
   width: 100%;
-
   background-color: aqua;
 }
+
 .article__iguana {
   margin-top: 2rem;
   width: 100%;
@@ -61,18 +67,23 @@ button {
   align-items: center;
   gap: 4rem;
 }
+
 .article__parrafos {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
+
 .article__parrafo {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
 }
 
 .article__img {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
 }
+
 .caracteristicas__container {
   width: 100%;
   height: 250px;
@@ -84,17 +95,18 @@ button {
   background-color: #1e1a13;
   margin-top: 3rem;
 }
-.caracteristicas__H2{
+
+.caracteristicas__H2 {
   text-align: center;
 }
+
 .caracteriticas__title {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
-
 }
+
 .caracteristicas__img {
   display: flex;
   width: 50px;
@@ -106,10 +118,12 @@ button {
   flex-direction: column;
   gap: 1rem;
 }
+
 .caracteristicas__card {
   width: 100%;
-  height: 200px;
+  height: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 3rem;
   margin-top: 3rem;
@@ -117,7 +131,8 @@ button {
 
 .img__card {
   display: flex;
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
 }
 
 .footer {
@@ -129,6 +144,7 @@ button {
   height: 60px;
   background-color: #1e1a13;
 }
+
 @media (max-width: 768px) {
   body {
     width: 100vw;
@@ -138,18 +154,16 @@ button {
   .article__iguana {
     flex-wrap: wrap;
   }
-  .caracteristicas__container{
+  .caracteristicas__container {
     margin-top: 20rem;
   }
-
   .caracteristicas__card {
     flex-wrap: wrap;
   }
-  .footer{
-margin-top: 30rem;
+  .footer {
+    margin-top: 3rem;
   }
-  .footer__parrafo{
+  .footer__parrafo {
     font-size: 16px;
   }
-
 }
