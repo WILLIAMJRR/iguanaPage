@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  color: white;
+  background-color: #000000;
+  font-family: "Raleway", sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+img {
+  width: 100%;
+  display: block;
+}
+input {
+  outline: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+button {
+  font-family: inherit;
+  border: none;
+}
+
+.header {
+  text-align: center;
+  font-size: 35px;
+}
+.figure__img {
+  margin: auto;
+  width: 100%;
+}
+.header__img {
+  width: 100%;
+
+  background-color: aqua;
+}
+.article__iguana {
+  margin-top: 2rem;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.article__parrafos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.article__parrafo {
+  width: 500px;
+}
+
+.article__img {
+  width: 500px;
+}
+.caracteristicas__container {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3.5rem;
+  background-color: #1e1a13;
+  margin-top: 3rem;
+}
+.caracteristicas__H2{
+  text-align: center;
+}
+.caracteriticas__title {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+
+}
+.caracteristicas__img {
+  display: flex;
+  width: 50px;
+  margin: auto;
+}
+
+.caracteristicas__span {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.caracteristicas__card {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.img__card {
+  display: flex;
+  width: 300px;
+}
+
+.footer {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #1e1a13;
+}
+@media (max-width: 768px) {
+  body {
+    width: 100vw;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  .article__iguana {
+    flex-wrap: wrap;
+  }
+  .caracteristicas__container{
+    margin-top: 20rem;
+  }
+
+  .caracteristicas__card {
+    flex-wrap: wrap;
+  }
+  .footer{
+margin-top: 30rem;
+  }
+  .footer__parrafo{
+    font-size: 16px;
+  }
+
+}
